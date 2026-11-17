@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>CUMILLA TO GAME · 3D হাইওয়ে মোটরসাইকেল গেম</title>
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/yYp1Fkzx/c276894e-5351-472e-96f5-b6f77174dead.png" />
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/yYp1Fkzx/c276894e-5351-472e-96f5-b6f77174dead.png" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #090d14; font-family: sans-serif; }
+    .wrap { display: flex; flex-direction: column; width: 100%; height: 100%; }
+    .bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #0d1420; border-bottom: 1px solid rgba(255,255,255,0.12); color: #fbbf24; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 14px; }
+    .brand img { width: 32px; height: 32px; border-radius: 8px; object-fit: cover; border: 1px solid rgba(251,191,36,0.6); }
+    .btns { display: flex; gap: 8px; }
+    .btn { padding: 7px 12px; border-radius: 8px; font-size: 12px; font-weight: 700; text-decoration: none; border: none; cursor: pointer; }
+    .install { background: #10b981; color: #052e16; }
+    .fs { background: #1e293b; color: #f8fafc; }
+    iframe { flex: 1; width: 100%; height: 100%; border: 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap" id="shell">
+    <div class="bar">
+      <div class="brand">
+        <img src="https://i.postimg.cc/yYp1Fkzx/c276894e-5351-472e-96f5-b6f77174dead.png" alt="CUMILLA TO GAME" />
+        <span>CUMILLA TO GAME</span>
+      </div>
+      <div class="btns">
+        <a class="btn install" href="https://ais-dev-u76sy66urlsnjsmenvjvco-682267312873.asia-east1.run.app/" target="_blank" rel="noopener">অ্যাপ ইন্সটল</a>
+        <button class="btn fs" type="button" onclick="document.getElementById('shell').requestFullscreen?.()">ফুলস্ক্রিন</button>
+      </div>
+    </div>
+    <iframe src="https://ais-dev-u76sy66urlsnjsmenvjvco-682267312873.asia-east1.run.app/" title="CUMILLA TO GAME" allow="fullscreen; accelerometer; gyroscope; autoplay" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
